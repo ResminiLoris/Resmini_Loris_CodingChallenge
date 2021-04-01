@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 60vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+/* HEADER */
+#logo {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  width: 20%;
+}
+
+#logo-text {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  color: #2be317;
+}
+
+.bottoni {
+  text-align: center;
+  margin: 0% 5%;
+  background-color: #00dd00;
+  padding: 10px;
+}
+
+button {
+  padding: 0px 5px;
+}
+
+/* MAIN */
+.catalogo {
+  color: white;
+  font-size: 18px;
+  margin: 5%;
+}
+
+h3 {
+  display: inline-block;
+  padding: 5px;
+}
+
+p:before {
+  content: "\21A6";
+}
+
+/* CARICHE */
+.stato_carica {
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#carica1 {
+  width: 30%;
+  background-color: #f5b453;
+}
+
+#carica2 {
+  width: 50%;
+  background-color: #1ec31e;
+}
+
+#carica3 {
+  width: 15%;
+  background-color: #be4141;
+}
